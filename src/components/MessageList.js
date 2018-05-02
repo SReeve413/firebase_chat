@@ -32,7 +32,7 @@ class MessageList extends React.Component {
             messages: messages
         })
     }
-    
+
 
     render() {
         let messageNodes = this.state.messages.map((message) => {

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import MessageList from './components/MessageList'
-
 import MessageBox from './components/MessageBox'
 import Header from './components/Header'
 import firebase from 'firebase'
@@ -25,13 +24,13 @@ class App extends Component {
             <React.Fragment>
                 <Header title="Simple Firebase App"/>
                 <div className="columns">
-                    <div className="column is-3"></div>
+                    <div className="column is-3">Questiong</div>
                     <div className="column is-6">
                         <MessageList db={firebase} />
                     </div>
                 </div>
                 <div className="columns">
-                    <div className="column is-3"></div>
+                    <div className="column is-3">Input</div>
                     <div className="column is-6">
                         <MessageBox db={firebase} />
                     </div>
